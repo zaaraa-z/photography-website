@@ -45,15 +45,48 @@ header {
   animation-fill-mode: backwards;
 }
 
-/*header------------------------------------------------------*/
+/*mission------------------------------------------------------*/
 .mission {
   background-color: #1b111b;
+}
+
+/*add by js*/
+.onscroll-from-left-anim {
+  animation: from-left 3s;
+}
+/*add by js*/
+.onscroll-from-right-anim {
+  animation: from-right 3s;
 }
 
 /*animations------------------------------------------------------*/
 @keyframes left-to-right {
   0% {
     transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes from-left {
+  0% {
+    transform: translateX(-130px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes from-right {
+  0% {
+    transform: translateX(40px);
     opacity: 0;
   }
 
