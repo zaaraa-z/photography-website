@@ -22,6 +22,10 @@ body {
   border: 2px solid var(--violet);
 }
 
+h2 {
+  font-weight: 800;
+}
+
 /*header------------------------------------------------------*/
 header {
   height: 100vh;
@@ -57,6 +61,11 @@ header {
 /*add by js*/
 .onscroll-from-right-anim {
   animation: from-right 3s;
+}
+
+/*collection------------------------------------------------------*/
+.collection {
+  background-color: #534953;
 }
 
 /*animations------------------------------------------------------*/
