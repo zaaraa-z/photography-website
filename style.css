@@ -110,6 +110,10 @@ header {
 .gallery-li:hover {
   color: var(--violet);
 }
+.gallery-li.active {
+  color: var(--violet);
+  text-decoration: underline;
+}
 
 .gallery-img-container img {
   width: 300px;
