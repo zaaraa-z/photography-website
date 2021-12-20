@@ -1,5 +1,6 @@
 :root {
   --white: rgba(248, 249, 250, 0.904);
+  --darkViolet: #1b111b;
   --violet: rgb(156, 40, 122);
 }
 
@@ -55,7 +56,7 @@ header {
 
 /*mission------------------------------------------------------*/
 .mission {
-  background-color: #1b111b;
+  background-color: var(--darkViolet);
 }
 
 /*add by js*/
@@ -119,6 +120,11 @@ header {
   width: 300px;
   height: 200px;
   margin: 3px;
+}
+
+/*customers------------------------------------------------------*/
+.customers {
+  background-color: var(--darkViolet);
 }
 
 /*animations------------------------------------------------------*/
