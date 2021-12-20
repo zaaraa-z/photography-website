@@ -127,6 +127,17 @@ header {
   background-color: var(--darkViolet);
 }
 
+.carousel-indicators li {
+  height: 5px;
+  width: 30px;
+  margin: 0 3px;
+  background-color: var(--white);
+  cursor: pointer;
+}
+.carousel-indicators li.active {
+  background-color: var(--violet);
+}
+
 /*animations------------------------------------------------------*/
 @keyframes left-to-right {
   0% {
