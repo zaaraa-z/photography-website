@@ -128,7 +128,7 @@ header {
 }
 
 .carousel-indicators li {
-  height: 5px;
+  height: 3px;
   width: 30px;
   margin: 0 3px;
   background-color: var(--white);
