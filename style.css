@@ -148,6 +148,13 @@ header {
   font-weight: 600;
 }
 
+@media screen and (min-width: 1200px) {
+  .pricing-cards-row {
+    margin: auto;
+    width: 70%;
+  }
+}
+
 .pricing-card {
   border: 0;
   box-shadow: 7px 10px 20px rgb(146, 146, 146);
@@ -209,4 +216,7 @@ header {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@keyframes {
 }
