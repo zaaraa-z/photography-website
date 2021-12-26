@@ -161,6 +161,15 @@ header {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url(img/header.jpg) center center no-repeat;
 }
+.card-to-right {
+  animation: card-to-right 2s;
+}
+.card-to-left {
+  animation: card-to-left 2s;
+}
+.card-to-top {
+  animation: card-to-top 2s;
+}
 
 .pricing-list-item {
   font-size: 14px;
@@ -218,5 +227,38 @@ header {
   }
 }
 
-@keyframes {
+@keyframes card-to-right {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes card-to-left {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes card-to-top {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatey(0);
+    opacity: 1;
+  }
 }
