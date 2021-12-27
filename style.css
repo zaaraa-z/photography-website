@@ -27,6 +27,17 @@ body {
   border: 2px solid white;
 }
 
+.action-btn {
+  background-color: var(--violet);
+  box-shadow: 5px 8px 18px black;
+  transition: transform 0.5s;
+}
+.action-btn:hover {
+  box-shadow: none;
+  transform: translateY(-4px);
+  transition: transform 0.5s;
+}
+
 h2 {
   font-weight: 800;
 }
@@ -181,15 +192,9 @@ header {
   margin: auto;
 }
 
-.pricing-btn {
-  background-color: var(--violet);
-  box-shadow: 5px 8px 18px black;
-  transition: transform 0.5s;
-}
-.pricing-btn:hover {
-  box-shadow: none;
-  transform: translateY(-4px);
-  transition: transform 0.5s;
+/*contact------------------------------------------------------*/
+.contact {
+  background-color: var(--darkViolet);
 }
 
 /*animations------------------------------------------------------*/
