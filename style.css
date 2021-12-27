@@ -198,16 +198,54 @@ header {
       105deg,
       rgba(27, 17, 27, 1) 0%,
       rgba(27, 17, 27, 0.9) 50%,
-      transparent 95%
+      transparent 50%
     ),
     url(img/contact-bg.jpg) no-repeat center center / cover;
+}
+@media screen and (max-width: 992px) {
+  .contact {
+    background: linear-gradient(rgba(27, 17, 27, 1), rgba(27, 17, 27, 1));
+  }
+
+  .contact h3 {
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 .contact-form input {
   background: transparent;
   border: 0;
-  border-bottom: solid 2px var(--white);
+  border-bottom: solid 1px var(--white);
   border-radius: 0;
+  color: var(--white);
+  font-size: 13px;
+  transition: all 0.6s;
+}
+
+.contact-form input:focus {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: solid 1px var(--violet);
+  color: var(--white);
+  transition: all 0.6s;
+}
+
+.contact-form .contact-label {
+  display: block;
+  margin-top: -50px;
+  margin-left: 8px;
+  font-size: 13px;
+  transition: all 0.6s;
+}
+
+.contact-form input:placeholder-shown + .contact-label {
+  transform: translateY(20px);
+  opacity: 0;
 }
 
 /*animations------------------------------------------------------*/
