@@ -253,6 +253,16 @@ footer p {
   font-size: 12px;
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 12px;
+}
+footer a:hover {
+  color: white;
+  font-weight: 600;
+}
+
 /*animations------------------------------------------------------*/
 @keyframes left-to-right {
   0% {
