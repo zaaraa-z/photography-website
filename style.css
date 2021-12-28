@@ -253,6 +253,12 @@ footer p {
   font-size: 12px;
 }
 
+footer h6 {
+  padding-bottom: 5px;
+  border-bottom: solid 2px var(--violet);
+  width: 70px;
+}
+
 footer a {
   text-decoration: none;
   color: var(--white);
