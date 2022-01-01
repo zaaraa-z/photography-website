@@ -102,6 +102,14 @@ nav a.nav-link {
   font-weight: 600;
 }
 
+.navbar-light .navbar-toggler {
+  border: 0;
+}
+.navbar-light .navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
 /*mission------------------------------------------------------*/
 .mission {
   background-color: var(--darkViolet);
