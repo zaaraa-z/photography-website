@@ -37,6 +37,16 @@ body {
   transform: translateY(-4px);
   transition: transform 0.5s;
 }
+.action-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:focus,
+.input-group button.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 h2 {
   font-weight: 800;
@@ -268,6 +278,15 @@ footer a:hover {
   color: white;
   font-weight: 600;
 }
+
+footer button.btn {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+/* footer button.btn:focus {
+  outline: 0;
+} */
 
 /*animations------------------------------------------------------*/
 @keyframes left-to-right {
