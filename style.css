@@ -75,6 +75,19 @@ header {
   animation-fill-mode: backwards;
 }
 
+@media screen and (max-width: 600px) {
+  .banner-heading {
+    font-size: 27px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .banner-par {
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+  }
+}
+
 /*mission------------------------------------------------------*/
 .mission {
   background-color: var(--darkViolet);
@@ -87,6 +100,12 @@ header {
 /*add by js*/
 .onscroll-from-right-anim {
   animation: from-right 3s;
+}
+
+@media screen and (max-width: 600px) {
+  .who-img {
+    width: 100%;
+  }
 }
 
 /*collection------------------------------------------------------*/
@@ -116,6 +135,12 @@ header {
   border: solid 2px white;
   border-right: 0;
   transition: all 0.6s;
+}
+
+@media screen and (max-width: 600px) {
+  .collection .card h6 {
+    font-size: 13px;
+  }
 }
 
 /*gallery------------------------------------------------------*/
@@ -224,6 +249,11 @@ header {
   .contact-form {
     width: 70%;
     margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  label[for='agree'] {
+    font-size: 12px;
   }
 }
 
